@@ -1,0 +1,45 @@
+/* CSS Document */
+
+ul{list-style-type:none;}
+
+#main_body {margin:0 auto;  background:url(../images/back.jpg) repeat-x;}
+#content{width:756px; margin:0 auto;  background:url(../images/main_back.jpg) top no-repeat;}
+#clear {clear: both; margin: 0px}
+
+/* HEADER */
+
+#header{height:345px; width:756px; position:relative; margin:0; padding:0;}
+
+#header ul.logo li a{background:url(../images/logo.jpg) no-repeat; width:259px; height:53px; position:absolute; top:30px; left:181px; margin:0; text-indent:-20000px; display:block}
+
+#header ul.call li {background:url(../images/call.jpg) no-repeat; width:189px; height:49px; position:absolute; top:30px; left:501px; margin:0; text-indent:-20000px; display:block}
+
+#header ul.menu {width:480px; height:22px; position:absolute; top:141px; left:212px;}
+#header ul.menu li{float:left}
+
+#header ul.menu li.home{width:105px; height:22px; margin-right:25px}
+#header ul.menu li.home a{width:105px; height:22px; display:block; background:url(../images/btn_home.jpg) 0 0 no-repeat; text-indent:-20000px;}
+#header ul.menu li.home a:hover{width:105px; height:22px; background:url(../images/btn_home_over.jpg) 0 0 no-repeat;}
+
+#header ul.menu li.about{width:98px; height:22px; margin-right:29px}
+#header ul.menu li.about a{width:98px; height:22px; display:block; background:url(../images/btn_about.jpg) 0 0 no-repeat; text-indent:-20000px;}
+#header ul.menu li.about a:hover{width:98px; height:22px; background:url(../images/btn_about_over.jpg) 0 0 no-repeat;}
+
+#header ul.menu li.services{width:94px; height:22px; margin-right:29px}
+#header ul.menu li.services a{width:94px; height:22px; display:block; background:url(../images/btn_services.jpg) 0 0 no-repeat; text-indent:-20000px;}
+#header ul.menu li.services a:hover{width:94px; height:22px; background:url(../images/btn_services_over.jpg) 0 0 no-repeat;}
+
+#header ul.menu li.contacts{width:100px; height:22px;}
+#header ul.menu li.contacts a{width:100px; height:22px; display:block; background:url(../images/btn_contacts.jpg) 0 0 no-repeat; text-indent:-20000px;}
+#header ul.menu li.contacts a:hover{width:100px; height:22px; background:url(../images/btn_contacts_over.jpg) 0 0 no-repeat;}
+
+#header ul.choose li a{background:url(../images/choose.jpg) no-repeat; width:390px; height:31px; position:absolute; top:308px; left:306px; margin:0; text-indent:-20000px; display:block}
+
+#header #welcome {width:389px; position:absolute; top:202px; left:306px;}
+#header #welcome h2{width:389px; height:31px; background:url(../images/h_welcome.jpg) 0 0 no-repeat; text-indent:-20000px; padding-bottom:10px}
+#header #welcome p{width:385px; margin:0 0 0 4px; padding-bottom: 10px;  font:11px/14px Tahoma, sans-serif; color:#061e40; float:left;}
+#header #welcome a{font:11px/14px Tahoma, sans-serif; font-weight:normal; color:#FFF; text-decoration:none;}
+#header #welcome a:hover{color:#061e40; text-decoration:underline;}
+
+/* CONTENT */
+
